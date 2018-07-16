@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\Flash\project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_stm32f4xx.o"'
+### List of Objects: adding '".\flash\system_stm32f4xx.o"'
+### List of Objects: adding '".\flash\retarget.o"'
+### List of Objects: adding '".\flash\serial.o"'
+### List of Objects: adding '".\flash\delay.o"'
+### List of Objects: adding '".\flash\hitachi_lcd.o"'
+### List of Objects: adding '".\flash\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\flash\startup_stm32f4xx.o" ".\flash\system_stm32f4xx.o" ".\flash\retarget.o" ".\flash\serial.o" ".\flash\delay.o" ".\flash\hitachi_lcd.o" ".\flash\main.o" 
+--strict --scatter ".\Flash\project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\project.map" -o .\Flash\project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\project.axf'
+### ADS-LD Command File: '.\Flash\project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\project.lnp', Handle=0x000004D0
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

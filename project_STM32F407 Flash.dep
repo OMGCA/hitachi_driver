@@ -1,0 +1,62 @@
+Dependencies for Project 'project', Target 'STM32F407 Flash': (DO NOT MODIFY !)
+F (.\startup_stm32f4xx.s)(0x51950875)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx --list ".\Flash\startup_stm32f4xx.lst" --xref -o ".\Flash\startup_stm32f4xx.o" --depend ".\Flash\startup_stm32f4xx.d")
+F (.\system_stm32f4xx.c)(0x51950875)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -o ".\Flash\system_stm32f4xx.o" --omf_browse ".\Flash\system_stm32f4xx.crf" --depend ".\Flash\system_stm32f4xx.d")
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x4F856B84)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50069A02)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059CD0C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB04DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F58BB76)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x4F856B84)
+F (.\retarget.c)(0x51950875)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -o ".\Flash\retarget.o" --omf_browse ".\Flash\retarget.crf" --depend ".\Flash\retarget.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB15116)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x4F856B84)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50069A02)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059CD0C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB04DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F58BB76)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x4F856B84)
+F (.\serial.c)(0x51950875)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -o ".\Flash\serial.o" --omf_browse ".\Flash\serial.crf" --depend ".\Flash\serial.d")
+I (serial.h)(0x51950875)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x4F856B84)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50069A02)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059CD0C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB04DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F58BB76)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x4F856B84)
+F (.\delay.c)(0x517A650E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -o ".\Flash\delay.o" --omf_browse ".\Flash\delay.crf" --depend ".\Flash\delay.d")
+I (delay.h)(0x517A650E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x4F856B84)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50069A02)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059CD0C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB04DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F58BB76)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x4F856B84)
+F (.\hitachi_lcd.c)(0x573AF14C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -o ".\Flash\hitachi_lcd.o" --omf_browse ".\Flash\hitachi_lcd.crf" --depend ".\Flash\hitachi_lcd.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB15116)
+I (serial.h)(0x51950875)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x4F856B84)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50069A02)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059CD0C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB04DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F58BB76)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x4F856B84)
+I (delay.h)(0x517A650E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB15116)
+I (hitachi_lcd.h)(0x5738F530)
+F (.\main.c)(0x573621D6)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -o ".\Flash\main.o" --omf_browse ".\Flash\main.crf" --depend ".\Flash\main.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB15116)
+I (serial.h)(0x51950875)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x4F856B84)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50069A02)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059CD0C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB04DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F58BB76)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x4F856B84)
+I (delay.h)(0x517A650E)
+I (hitachi_lcd.h)(0x5738F530)

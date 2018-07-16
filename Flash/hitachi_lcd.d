@@ -1,0 +1,13 @@
+.\Flash\hitachi_lcd.o: hitachi_lcd.c
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\Flash\hitachi_lcd.o: serial.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\CMSIS\Include\core_cm4.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h
+.\Flash\hitachi_lcd.o: delay.h
+.\Flash\hitachi_lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\Flash\hitachi_lcd.o: hitachi_lcd.h

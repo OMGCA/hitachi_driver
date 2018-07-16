@@ -1,0 +1,5 @@
+--cpu Cortex-M4.fp ".\flash\startup_stm32f4xx.o" ".\flash\system_stm32f4xx.o" ".\flash\retarget.o" ".\flash\serial.o" ".\flash\delay.o" ".\flash\hitachi_lcd.o" ".\flash\main.o" 
+--strict --scatter ".\Flash\project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\project.map" -o .\Flash\project.axf
